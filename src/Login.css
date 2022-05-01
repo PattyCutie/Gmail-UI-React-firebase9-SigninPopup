@@ -1,0 +1,19 @@
+.login {
+    display: grid;
+    background-color: #fffff;
+    place-items: center;
+    height: 100vh
+}
+.login__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.login__container > h1 {
+   font-size: 14px;
+}
+
+.login__container > Button > img {
+    object-fit: cover;
+    height: 200px;
+}
